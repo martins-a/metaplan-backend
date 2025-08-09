@@ -16,8 +16,15 @@ const metaService = {
                 total: total
             }
         }
-
-
+    },
+    deleteMeta: async (id) => {
+        return id;
+    },
+    addMeta: async (meta) => {
+        return meta;
+    },
+    editdMeta: async (meta) => {
+        return meta;
     }
 }
 
